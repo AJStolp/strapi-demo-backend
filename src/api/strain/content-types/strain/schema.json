@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "strains",
+  "info": {
+    "singularName": "strain",
+    "pluralName": "strains",
+    "displayName": "strain",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

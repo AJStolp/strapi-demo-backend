@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lakes",
+  "info": {
+    "singularName": "lake",
+    "pluralName": "lakes",
+    "displayName": "Lake",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "depth": {
+      "type": "biginteger"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
